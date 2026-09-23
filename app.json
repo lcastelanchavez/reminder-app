@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "MemoryDrop",
+    "slug": "memorydrop",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "memorydrop",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#080912",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.memorydrop.app"
+    },
+    "android": {
+      "package": "com.memorydrop.app",
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static"
+    },
+    "plugins": ["expo-router"],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
